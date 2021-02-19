@@ -1,0 +1,93 @@
+header
+{
+    color:honeydew;
+    background-color:darkred;
+    width:100%;
+    height: 50px;
+    text-align: center;
+}
+
+li
+{
+    color:cornsilk;
+}
+
+#king
+{
+   background-color: rgb(209, 19, 19);
+   width: 45%;
+   border-top:slategray 3px solid;
+   border-bottom:slategray 3px solid;
+   float:left;
+}
+#k
+{
+    color:lightblue;
+    text-align: center;
+    text-decoration:underline;
+}
+.clk{
+    color:indigo;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#mi
+{
+    background-color: rgb(19, 130, 209);
+    width: 45%;
+    border-top:slategray 3px solid;
+    border-bottom:slategray 3px solid;
+}
+#m
+{
+    color: rosybrown;
+    text-align: center;
+    text-decoration:underline;
+}
+.cls
+{
+    color: rgb(232, 241, 241);
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#rr
+{
+    background-color: deeppink;
+    width: 45%;
+    border-top:slategray 3px solid;
+    border-bottom:slategray 3px solid;
+    float: left;
+}
+#r
+{
+    color:grey;
+    text-align: center;
+    text-decoration:underline;
+}
+.clr{
+    color:lavender;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#rb
+{
+    background-color: palevioletred;
+    width: 45%;
+    border-top:slategray 3px solid;
+    border-bottom:slategray 3px solid;
+}
+#b
+{
+    color: rgb(17, 3, 3);
+    text-align: center;
+    text-decoration:underline;
+}
+.clb
+{
+    color:silver;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

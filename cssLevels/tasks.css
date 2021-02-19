@@ -1,0 +1,49 @@
+header{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.one
+{
+    background-color: #3275a8;
+    height: 400px;
+    width: 10%;
+    float: left;
+    margin-left: 21%;
+}
+
+.two
+{
+    background-color: #55d4a7;
+    height: 400px;
+    width: 10%;
+    float: left;
+    margin-left: 2%;
+}
+
+.three
+{
+    background-color: #79d49f;
+    height: 400px;
+    width: 10%;
+    float:left;
+    margin-left: 2%;
+}
+
+.four
+{
+    background-color: #f0f2ac;
+    height: 400px;
+    width: 10%;
+    float: left;
+    margin-left: 2%;
+}
+
+.five
+{
+    background-color: #c4301f;
+    height: 400px;
+    width: 10%;
+    float: left;
+    margin-left: 2%;
+}

@@ -1,0 +1,101 @@
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 6%;
+}
+header{
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 150%;
+    
+}
+.tone{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    heght: 80px;
+    width: 25%;
+    border: 1px  solid#a7bbc9;
+    padding: 20px 20px 20px 20px;
+    background-color: #f2f8fa;
+    border-radius: 5px;
+    
+}
+.user{
+    font-family: 'Roboto', sans-serif;
+font-size: 13px;
+}
+.iput{
+border: #90a1ad;
+width:250px;
+line-height: 26px;
+margin-top: 5px;
+border-radius: 5px;
+border: 1px solid #babae6;
+}
+.btn{
+     background-color: #139e1a;
+     height: 34px;
+     width:255px;
+     margin-top: 20px;
+     border-radius: 5px;
+     color: #ffffff;
+     font-size: 14px;
+}
+.forg{
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    padding-left: 95px;
+    font-weight:bolder;
+}
+.ttwo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    heght: 80px;
+    width: 25.5%;
+    border: 1px solid#a7bbc9;
+    padding: 10px 20px 10px 20px;
+    background-color: #f2f8fa;
+    border-radius: 5px;
+
+}
+.new{
+    padding-left: 20px;
+    
+
+}
+.aone{
+    text-decoration: none;
+    color: mediumblue;
+    font-weight: bolder;
+}
+.twot{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.atwo{
+    
+    color: mediumblue;
+    text-decoration: none;
+    padding-left: 15px;
+    
+}
+.athree{
+    text-decoration: none;
+    padding-left: 15px;
+    color:darkslategrey;
+
+}
+p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+}
