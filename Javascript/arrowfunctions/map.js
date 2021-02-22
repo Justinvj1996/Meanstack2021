@@ -11,3 +11,4 @@ var sum=arr.reduce((num1,num2)=>num1+num2)
 console.log(sum);
 var max=arr.reduce((num1,num2)=>num1>num2?num1:num2)
 console.log(max);
+arr.sort((o1,o2)=>o1>o2?-1:1).forEach(o=>console.log(o))//sort
