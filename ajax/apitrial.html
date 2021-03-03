@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Welcome</h1>
+    
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">USERID</th>
+            <th scope="col">ID</th>
+            <th scope="col">TITLE</th>
+            <th scope="col">BODY</th>
+          </tr>
+        </thead>
+        <tbody id="data">
+
+        </tbody>
+        </table>
+        <button onclick="getPosts()">Click here</button>
+   </body>
+<script>
+    
+    var request = new XMLHttpRequest()
+    request.open("get", "https://jsonplaceholder.typicode.com/posts/1")
+    //Have to pass 2 arguments 1) method 2) is url
+    function getPosts() {
+        request.send()
+    }
+    request.onreadystatechange = () => {
+        // console.log(request.readyState);
+        // console.log(request.responseText);
+        if (request.readyState == 4) {
+            if ((request.status >= 200) & (request.status < 300)) {
+                var result = JSON.parse(request.responseText)//used to convert string to object
+                console.log(result);
+                var html_data=""
+                html_data=html_data+"<tr><td>"+result.userId+"</td> <td>"+result.id+"</td><td>"+result.title+"</td><td>"+result.body+"</td></tr>"
+                document.querySelector('#data').innerHTML=html_data
+            }
+            else {
+                alert("Failed")
+            }
+        }
+    }
+</script>
+
+</html>
