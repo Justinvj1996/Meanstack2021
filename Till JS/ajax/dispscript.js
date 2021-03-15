@@ -2,7 +2,7 @@ function displaydetails() {
 
     let name = document.querySelector("#cname").value;
     var request = new XMLHttpRequest();
-    request.open("get", `https://restcountries.eu/rest/v2/name/${name}`)
+    request.open("get", `https://restcountries.eu/rest/v2/name/${name}?fullText=true`)
     request.send();
     request.onreadystatechange = () => {
         if (request.readyState == 4) {

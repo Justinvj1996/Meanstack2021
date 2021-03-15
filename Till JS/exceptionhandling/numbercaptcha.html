@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div></div>
+        <div>Enter a number Between 5 to 10 : <input type="text" id="input_text"><button
+                onclick="validate()">Check</button></div>
+        <div></div>
+    </div>
+</body>
+<script>
+    function validate() {
+        let num = document.querySelector("#input_text").value
+        try {
+            if (isNaN(num)) {
+                throw new Error("Not a number")
+            }
+
+            if (num < 5) {
+                throw new Error("Age less than 5")
+            }
+            else if (num > 10) {
+                throw new Error("Age greater than 10")
+            }
+        }
+        catch (er) {
+            alert(er.message);
+        }
+        finally {
+            if ((num >= 5) & (num <= 10)) {
+                alert("Age is : " + num);
+            }
+
+        }
+    }
+
+
+
+</script>
+
+</html>

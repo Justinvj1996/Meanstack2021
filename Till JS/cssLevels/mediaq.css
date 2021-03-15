@@ -1,0 +1,22 @@
+.portion{
+    width: 700px;
+    height: 500px;
+    background-color: aquamarine;
+    }
+    @media(max-width:450px){
+        .portion{
+            background-color:brown;
+        }
+        .data{
+            font-size:large;
+            
+            color: seashell;
+            text-align: center;
+        }
+        
+    }
+    @media(max-width:250px){
+        .data{
+            display: none;
+        }
+    }
